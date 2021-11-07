@@ -1,6 +1,6 @@
 import os
 
-with open('.github_token') as infile:
+with open('~/.github_token') as infile:
     os.environ['GITHUB_AUTH'] = infile.readline()
 
 
